@@ -21,7 +21,7 @@ export const education = [
     degree: "Senior Secondary",
     institution: "KV AFS Yelahanka",
     period: "2022",
-    grade: "75%"
+    grade: "75.4%"
   },
   {
     degree: "Matriculation",
@@ -42,40 +42,37 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Sign Language Detection",
-    description: "ASL recognition system using computer vision and machine learning for real-time gesture detection.",
-    tech: ["Python", "OpenCV", "TensorFlow", "Scikit-Learn"],
-    github: "https://github.com/Mrigank-Mouli-Singh/Sign-Language-Detection",
-    demo: ""
-  },
-  {
-    title: "Mrichat",
-    description: "React chatbot with Nhost authentication and Hasura GraphQL (subscriptions). Automated bot replies via Hasura Actions and n8n webhooks. Deployed on Netlify.",
-    tech: ["React.js", "Hasura", "Nhost", "GraphQL", "TailwindCSS"],
-    github: "https://github.com/Mrigank-Mouli-Singh/mrichat",
-    demo: "https://mrichat.netlify.app"
-  },
-  {
     title: "MERN E-commerce App",
     description: "Full-stack MERN e-commerce application with JWT auth, product management, cart & checkout, and payment integration.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Razorpay"],
     github: "https://github.com/Mrigank-Mouli-Singh/ecommerce-app",
     demo: "https://mern-shop-abxs.onrender.com/"
   },
+  
   {
+    title: "Sign Language Detection",
+    description: "ASL recognition system using computer vision and machine learning for real-time gesture detection.",
+    tech: ["Python", "OpenCV", "TensorFlow", "Scikit-Learn"],
+    github: "https://github.com/Mrigank-Mouli-Singh/Sign-Language-Detection",
+    demo: ""
+  },
+  
+   {
     title: "Crop Prediction System",
     description: "Machine learning-based crop prediction model using soil and weather data, achieving 94% accuracy. Built with Scikit-Learn, Pandas, NumPy, and deployed with React & Node.js frontend-backend integration.",
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "React.js", "Node.js"],
     github: "https://github.com/Mrigank-Mouli-Singh/Crop-Prediction",
     demo: ""
   },
+  
   {
-    title: "Hotel Booking App",
-    description: "Hotel booking application built with React for front-end, providing an intuitive UI for searching and booking accommodations.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/Mrigank-Mouli-Singh/HotelBooking-React",
-    demo: "https://hotel-booking-arnob.netlify.app/"
+    title: "Mrichat",
+    description: "React chatbot with Nhost authentication and Hasura GraphQL (subscriptions). Automated bot replies via Hasura Actions and n8n webhooks. Deployed on Netlify.",
+    tech: ["React.js", "Hasura", "Nhost", "GraphQL", "TailwindCSS"],
+    github: "https://github.com/Mrigank-Mouli-Singh/mrichat",
+    demo: "https://mrichat.netlify.app"
   }
+  
 ];
 
 
