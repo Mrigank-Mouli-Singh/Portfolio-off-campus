@@ -46,7 +46,8 @@ export const projects = [
     description: "Full-stack MERN e-commerce application with JWT auth, product management, cart & checkout, and payment integration.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Razorpay"],
     github: "https://github.com/Mrigank-Mouli-Singh/ecommerce-app",
-    demo: "https://mern-shop-abxs.onrender.com/"
+    demo: "https://mern-shop-abxs.onrender.com/",
+    image: ""
   },
 
   {
@@ -54,7 +55,8 @@ export const projects = [
     description: "React chatbot with Nhost authentication and Hasura GraphQL (subscriptions). Automated bot replies via Hasura Actions and n8n webhooks. Deployed on Netlify.",
     tech: ["React.js", "Hasura", "Nhost", "GraphQL", "TailwindCSS"],
     github: "https://github.com/Mrigank-Mouli-Singh/mrichat",
-    demo: "https://mrichat.netlify.app"
+    demo: "https://mrichat.netlify.app",
+    image: ""
   },
   
   {
@@ -62,7 +64,8 @@ export const projects = [
     description: "ASL recognition system using computer vision and machine learning for real-time gesture detection.",
     tech: ["Python", "OpenCV", "TensorFlow", "Scikit-Learn"],
     github: "https://github.com/Mrigank-Mouli-Singh/Sign-Language-Detection",
-    demo: ""
+    demo: "",
+    image: ""
   },
   
    {
@@ -70,7 +73,8 @@ export const projects = [
     description: "Machine learning-based crop prediction model using soil and weather data, achieving 94% accuracy.",
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "React.js", "Node.js"],
     github: "https://github.com/Mrigank-Mouli-Singh/Crop-Prediction",
-    demo: ""
+    demo: "",
+    image: ""
   }
   
 ];
