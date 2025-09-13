@@ -34,8 +34,8 @@ export const education = [
 export const skills = [
   "C", "C++", "Java", "Python", "SQL", "HTML", "CSS", "JavaScript", 
   "React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "AWS", 
-  "Azure", "Git/GitHub", "Docker", "Linux","Pandas", "NumPy", "Matplotlib" "TensorFlow", "PyTorch", 
-  "OpenCV", "Scikit-Learn"
+  "Azure", "Git/GitHub", "Docker", "Linux", "Pandas", "NumPy", 
+  "MatplotLib", "Scikit-Learn", "TensorFlow", "PyTorch", "OpenCV"
 ];
 
 
