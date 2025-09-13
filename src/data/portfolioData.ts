@@ -59,7 +59,7 @@ export const projects = [
   
    {
     title: "Crop Prediction System",
-    description: "Machine learning-based crop prediction model using soil and weather data, achieving 94% accuracy. Built with Scikit-Learn, Pandas, NumPy, and deployed with React & Node.js frontend-backend integration.",
+    description: "Machine learning-based crop prediction model using soil and weather data, achieving 94% accuracy.",
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "React.js", "Node.js"],
     github: "https://github.com/Mrigank-Mouli-Singh/Crop-Prediction",
     demo: ""
@@ -78,7 +78,7 @@ export const projects = [
 
 
 export const achievements = [
-  "Solved 300+ DSA problems on LeetCode",
+  "Solved 500+ DSA problems on LeetCode",
   "Ranked 334 globally in LeetCode Biweekly Contest 159",
   "1st place in Algozenith Coding Contest (IIIT Sonepat)"
 ];
