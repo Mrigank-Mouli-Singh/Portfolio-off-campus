@@ -48,6 +48,14 @@ export const projects = [
     github: "https://github.com/Mrigank-Mouli-Singh/ecommerce-app",
     demo: "https://mern-shop-abxs.onrender.com/"
   },
+
+  {
+    title: "Mrichat",
+    description: "React chatbot with Nhost authentication and Hasura GraphQL (subscriptions). Automated bot replies via Hasura Actions and n8n webhooks. Deployed on Netlify.",
+    tech: ["React.js", "Hasura", "Nhost", "GraphQL", "TailwindCSS"],
+    github: "https://github.com/Mrigank-Mouli-Singh/mrichat",
+    demo: "https://mrichat.netlify.app"
+  },
   
   {
     title: "Sign Language Detection",
@@ -63,14 +71,6 @@ export const projects = [
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "React.js", "Node.js"],
     github: "https://github.com/Mrigank-Mouli-Singh/Crop-Prediction",
     demo: ""
-  },
-  
-  {
-    title: "Mrichat",
-    description: "React chatbot with Nhost authentication and Hasura GraphQL (subscriptions). Automated bot replies via Hasura Actions and n8n webhooks. Deployed on Netlify.",
-    tech: ["React.js", "Hasura", "Nhost", "GraphQL", "TailwindCSS"],
-    github: "https://github.com/Mrigank-Mouli-Singh/mrichat",
-    demo: "https://mrichat.netlify.app"
   }
   
 ];
