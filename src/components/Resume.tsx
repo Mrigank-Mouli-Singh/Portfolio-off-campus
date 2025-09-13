@@ -63,7 +63,7 @@ const Resume: React.FC = () => {
               <div className="mt-8 p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600">
                 <div className="flex items-center justify-center gap-2 text-sm text-gray-600 dark:text-gray-400">
                   <FileText size={16} />
-                  <span>PDF Format • Updated January 2025</span>
+                  <span>PDF Format • Updated September 2025</span>
                 </div>
               </div>
             </div>
