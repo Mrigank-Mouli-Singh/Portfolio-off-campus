@@ -11,16 +11,18 @@ const Header: React.FC<HeaderProps> = ({ isDark, toggleDark }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Education', href: '#education' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Resume', href: '#resume' },
-    { name: 'Achievements', href: '#achievements' },
-    { name: 'Coursework', href: '#coursework' },
-    { name: 'Contact', href: '#contact' }
-  ];
+  { name: 'Home', href: '#home' },
+  { name: 'About', href: '#about' },
+  { name: 'Experience', href: '#experience' }, // moved up
+  { name: 'Projects', href: '#projects' },     // moved up
+  { name: 'Education', href: '#education' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Resume', href: '#resume' },
+  { name: 'Achievements', href: '#achievements' },
+  { name: 'Coursework', href: '#coursework' },
+  { name: 'Contact', href: '#contact' }
+];
+
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
